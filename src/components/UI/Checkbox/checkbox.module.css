@@ -1,0 +1,54 @@
+.input-main__input {
+    display: none;
+}
+.input-main__icon {
+    border: 2px solid #E8E8E8;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    display: block;
+    cursor: pointer;
+}
+.input-main__icon-checked {
+    background: #4DD599;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    display: block;
+    cursor: pointer;
+    margin-top: -20px;
+    opacity: 0;
+    position: relative;
+}
+
+.input-main__icon-checked:after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 2px;
+    background: #fff;
+    bottom: 7px;
+    left: 5px;
+    transform: rotate(45deg);
+}
+
+.input-main__icon-checked:before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    bottom: 9px;
+    left: 7px;
+    transform: rotate(130deg);
+}
+
+.input-main__input:checked~.input-main__icon-checked{
+    opacity: 1;
+    transition: .3s;
+}
+.input-main__input:checked~.input-main__icon {
+    opacity: 0;
+}

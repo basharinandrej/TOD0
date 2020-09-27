@@ -1,0 +1,32 @@
+.nav-list__circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 16px;
+  display: block;
+}
+
+.nav-list__circle--green {
+  background: #42B883;
+}
+.nav-list__circle--grey {
+  background: #C9D1D3;
+}
+.nav-list__circle--blue {
+  background: #64C4ED;
+}
+.nav-list__circle--pink {
+  background: #FFBBCC;
+}
+.nav-list__circle--lime {
+  background: #B6E6BD;
+}
+.nav-list__circle--purple {
+  background: #C355F5;
+}
+.nav-list__circle--black {
+  background: #000;
+}
+.nav-list__circle--red {
+  background: #FF6464;
+}

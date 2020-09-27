@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo {
+  display: flex;
+  min-height: 100vh;
+
+  &__wrapper {
+    padding: 124px 94px;
+    flex: 1;
+  }
+
+  &__tasks {
+    flex-grow: 1;
+  }
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 46px;
+  color: #0ba3d6;
+  font-weight: 900;
+}
+
+.iconPlus {
+  margin-right: 12px;
+}
+
+hr {
+  border: 1px solid #F2F2F2;
+  margin: 24px 0 24px 0;
+}
+
+.todo__sidebar {
+  width: 300px;
+}
+
+.sidebar {
+  background: #E5E5E5;
+  padding: 60px 28px;
+
+  &__burger-menu {
+    fill: #7C7C7C;
+    margin-right: 8px;
+  }
+
+  &__nav-list {
+    margin-bottom: 24px;
+  }
+}
+
+.nav-list {
+  &__item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 32px 12px 20px;
+  }
+
+  &__item.active {
+    background: #fff;
+    border-radius: 4px;
+    transition: .3s;
+  }
+
+  &__item:hover {
+    background: #ffffff80;
+    transition: .3s;
+  }
+
+  &__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    font-family: sans-serif;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 120px;
+  }
+  &__cnt-tasks {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    font-family: sans-serif;
+  }
+}

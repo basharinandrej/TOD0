@@ -1,0 +1,35 @@
+
+
+.sidebar__plus {
+  margin-right: 8px;
+}
+
+.list-add-btn svg{
+  margin-right: 8px;
+  opacity: .54;
+}
+.list-add-btn .nav-list__paragraph {
+  opacity: .54;
+}
+
+.nav-list__item {
+  position: relative;
+  padding-right: 12px;
+}
+
+.list-add-btn:hover svg,
+.list-add-btn:hover .nav-list__paragraph{
+  opacity: 1;
+  transition: .3s;
+}
+
+.nav-list__item--close {
+  margin-left: auto;
+  display: flex;
+  opacity: 0;
+}
+
+.nav-list__item:hover .nav-list__item--close {
+  opacity: 1;
+  transition: 0.3s;
+}

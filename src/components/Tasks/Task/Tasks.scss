@@ -1,0 +1,132 @@
+.tasks {
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #64C4ED;
+    font-family: sans-serif;
+  }
+  &__tasks-list {
+    margin-bottom: 42px;
+  }
+
+  .tasks__item:hover .tasks-list__close-icon{
+    opacity: 1;
+    transition: .3s;
+  }
+
+  .tasks__item:hover .tasks-list__edit-icon{
+    opacity: 1;
+    transition: .3s;
+  }
+
+  &__new-tasks {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15px;
+    color: #B4B4B4;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-bottom: 24px;
+  }
+}
+
+.tasks__checkbox {
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.tasks-list__paragraph {
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  padding: 12px;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.tasks__item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.tasks__paragraph {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #C9D1D3;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.icon-edit {
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.tasks-list__edit-icon {
+  margin-right: 16px;
+  opacity: 0;
+}
+
+.tasks-list__close-icon {
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+
+.tasks-item__btn-wrapper {
+  display: flex;
+  margin-top: 16px;
+}
+.tasks-item__main-btn {
+  width: max-content;
+}
+.main-btn {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  background: #4DD599;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.main-btn:disabled {
+  background: #ccc;
+}
+
+.main-btn:nth-child(2) {
+  margin-left: 12px;
+}
+.add-list__main-btn {
+  width: 100%;
+}
+
+.ghoest-btn {
+  background: #F4F6F8;
+  color: #9C9C9C;
+}
+.todo__box {
+  padding: 56px 12px 12px 126px;
+  width: 80%;
+}
+
+
+
+
+

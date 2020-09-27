@@ -1,0 +1,59 @@
+.tooltip-add-list {
+  background: #fff;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  &__close {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    cursor: pointer;
+  }
+}
+
+.tooltip-add-list__main-input {
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.main-input {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15px;
+  color: #000;
+  padding: 8px 12px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+  border-radius: 4px;
+  &:focus {
+    outline: none;
+  }
+}
+
+
+
+.list-badge {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    list-style: none;
+    & i {
+      min-width: 20px;
+      height: 20px;
+      cursor: pointer;
+      display: block;
+      margin-right: 0;
+      border: 2px solid transparent;
+      box-sizing: border-box;
+    }
+    & i.active{
+      border: 2px solid #000;
+    }
+    & i.active-white{
+      border: 2px solid #ff0024;
+    }
+  }
+}
